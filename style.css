@@ -1,0 +1,120 @@
+* {
+    margin: 0;
+}
+
+
+.username,
+.password {
+    display: block;
+    margin-bottom: 20px;
+}
+
+.me {
+    display: flex;
+    align-items: center;
+}
+body{
+    background-image:url(https://europeancitieswithkids.com/wp-content/uploads/2022/02/sunset-fair-amusement-park-6596290.jpg);
+    background-size: cover;
+}
+.signin{
+    margin-left: 30px;
+    background-color: #1877f2;
+    border-radius: 6px;
+    padding: 6px;
+    color: white;
+    border: none;
+    font-family: 'Times New Roman', Times, serif;
+    box-shadow: 3px 3px 6px rgba(0, 0, 0, 0.4);
+    transition: 0.8s ease-in-out;
+    cursor: pointer;
+}
+.signin:active{
+box-shadow: none;
+transform: scale(0.2);
+
+}
+
+.heading {
+    margin-left: 70px;
+    color: rgb(49, 47, 47);
+    margin-bottom: 10px;
+}
+
+.login {
+    position: absolute;
+    top: 35%;
+    left: 40%;
+    border-radius: 10%;
+    border-top: rgb(75, 74, 74);
+    box-shadow: 3px 3px 6px rgba(0, 0, 0, 0.4);
+    background-image: url(photo.jpg);
+    border: none;
+    
+    
+
+    padding: 40px;
+
+
+}
+
+.head {
+    position: absolute;
+    top: 10%;
+    left: 18%;
+    color: yel;
+    font-family: roboto;
+    font-size: 56px;
+
+}
+
+.username {
+    width: 200px;
+    height: 35px;
+    border: none;
+    box-shadow: 3px 3px 4px rgba(0, 0, 0, 0.4);
+    border-radius: 10px;
+    background-color: whitesmoke;
+    opacity: 0.4;
+    padding-left: 10px;
+
+
+
+}
+
+.username::placeholder {
+    font-family: Roboto;
+    padding-left: 5px;
+
+}
+
+.password {
+    width: 200px;
+    height: 35px;
+    border: none;
+    box-shadow: 3px 3px 4px rgba(0, 0, 0, 0.4);
+    border-radius: 10px;
+    background-color: whitesmoke;
+    opacity: 0.4;
+    padding-left: 10px;
+
+
+}
+
+.password::placeholder {
+    font-family: Roboto;
+    padding-left: 5px;
+}
+
+.remember {
+    color: white;
+    margin-left: 10px;
+}
+.remember::placeholder{
+    width: 15px;
+    height: 15px;
+    
+}
+input[type=checkbox]{
+    accent-color: rgb(7, 187, 7);
+}

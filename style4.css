@@ -1,0 +1,337 @@
+
+
+.hero{
+    padding-top: 62px;
+   
+    color: blue;
+    
+}
+.hero1{
+    padding-top: 62px;
+   padding-left:180px;
+    color: blue;
+}
+.logouti{
+    border: none;
+    border-radius: 10px;
+}
+.navbar{
+    background-color: rgb(37, 35, 35);
+    position: fixed;
+    width: 100%;
+    z-index: 100;
+}
+.admin{
+    color: green;
+}
+.profile{
+    display: flex;
+    align-items: center;
+    
+}
+.sidebar {
+    position:fixed;
+    margin-top: 60px;
+    width: 180px;
+    height: 100vh;
+    background-color: black;
+    
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+    display: none;
+
+}
+
+.sideba {
+    position:fixed;
+    margin-top: 60px;
+    width: 180px;
+    height: 100vh;
+    background-color: black;
+  
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    animation-duration: 0.5s;
+    animation-name: example;
+    
+   
+    
+   
+   
+}
+@keyframes example {
+    0% {width: 105px;}
+    
+    100% {width:180px}
+    
+}
+
+.board{
+    
+    color:black;
+text-decoration: none;
+font-family: Arial, Helvetica, sans-serif;
+display: flex;
+flex-direction: row;
+align-items: center;
+gap: 10px;
+margin-bottom: 2pxpx;
+margin-top: 5px;
+position: relative;
+
+
+background-color: white;
+
+font-size: 11px;
+font-weight: bold;
+
+}
+.board:hover{
+    background-color: gold;
+}
+.d{
+padding: 15px 49px;
+margin-top: 20PX;
+width: 100%;
+}
+
+.va{
+    padding:15px 20px;
+width: 100%;
+}
+.v{
+padding:15px 20px;
+width: 100%;
+}
+.f{
+    padding:15px 6px;
+    width: 100%;
+}
+.g{
+    padding:15px 6px;
+    width: 100%;
+}
+.k{
+    padding:15px 48px;
+    width: 100%;
+}
+.board:before{
+    content: "";
+    width: 5px;
+    height:100%;
+    position: absolute;
+    background-color: purple;
+    left:0px;
+}
+.drop{
+    color: azure;
+text-decoration: none;
+display: flex;
+flex-direction: row;
+align-items: center;
+gap: 10px;
+margin-bottom: 1px;
+
+position: relative;
+
+
+background-color: rgb(218, 209, 209);
+color: black;
+font-size: 11px;
+display: none;
+
+}
+.dropi{
+    color: azure;
+    text-decoration: none;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 10px;
+    margin-bottom: 1px;
+    
+    position: relative;
+    
+    
+    background-color: rgb(218, 209, 209);
+    color: black;
+    font-size: 11px;
+    display: none;
+}
+.new{
+    padding: 10px 55px;
+    width: 100%;
+}
+.newi{
+    padding: 10px 55px;
+    width: 100%;
+}
+.list{
+    padding: 10px 70px;
+    width: 100%;
+    
+}
+.listi{
+    padding: 10px 70px;
+    width: 100%;
+}
+.z{
+    color: azure;
+text-decoration: none;
+display: flex;
+flex-direction: row;
+align-items: center;
+gap: 10px;
+margin-bottom: 1px;
+
+position: relative;
+
+
+background-color: rgb(218, 209, 209);
+color: black;
+font-size: 11px;
+}
+.lis{
+    padding: 10px 55px;
+    width: 100%;
+}
+.nw{
+    padding: 10px 50px;
+    width: 100%;
+}
+.drp{
+    color: azure;
+    text-decoration: none;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 10px;
+    margin-bottom: 1px;
+    
+    position: relative;
+    
+    
+    background-color: rgb(218, 209, 209);
+    color: black;
+    font-size: 11px;
+    display: none;
+    
+}
+
+.z1{
+    color: azure;
+text-decoration: none;
+display: flex;
+flex-direction: row;
+align-items: center;
+gap: 10px;
+margin-bottom: 1px;
+
+position: relative;
+
+
+background-color: rgb(218, 209, 209);
+color: black;
+font-size: 11px
+
+}
+
+.zau{
+    color: azure;
+    text-decoration: none;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 10px;
+    margin-bottom: 1px;
+    
+    position: relative;
+    
+    
+    background-color: rgb(218, 209, 209);
+    color: black;
+    font-size: 11px  
+}
+
+
+.ls{
+    padding: 10px 45px;
+    width: 100%;
+}
+.n{
+    padding: 10px 50px;
+    width: 100%;
+}
+.dp{
+    color: azure;
+    text-decoration: none;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 10px;
+    margin-bottom: 1px;
+    
+    position: relative;
+    
+    
+    background-color: rgb(218, 209, 209);
+    color: black;
+    font-size: 11px;
+    display: none;
+    
+}
+
+.zoo{
+    color: azure;
+text-decoration: none;
+display: flex;
+flex-direction: row;
+align-items: center;
+gap: 10px;
+margin-bottom: 1px;
+
+position: relative;
+
+
+background-color: rgb(218, 209, 209);
+color: black;
+font-size: 11px
+
+}
+@media (max-width:450px){
+    
+    .sideba{
+        margin-top: 50px;
+    }
+    .navini{
+        display: flex;
+        flex-direction: row;
+        align-items: flex-start;
+    }
+    .fluid{
+        display: flex;
+        padding: 0px;
+        flex: 1;
+
+    }
+}
+@media (max-width:1000px){
+    
+    .sideba{
+        margin-top: 50px;
+    }
+    .navini{
+        display: flex;
+        flex-direction: row;
+        align-items: flex-start;
+    }
+    .fluid{
+        display: flex;
+        padding: 0px;
+        flex: 1;
+
+    }
+}
